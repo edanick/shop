@@ -1,0 +1,458 @@
+[9/2/2024 8:15:26 PM] error:	[GET] [/api/v1/users] 	Code 401 | Client is not autherized to make this request
+[9/3/2024 12:33:32 PM] error:	[POST] [/api/v1/users] 	Code (400) | User registration has failed: "address.state" is not allowed to be empty
+[9/3/2024 12:33:49 PM] error:	[POST] [/api/v1/users] 	Code (400) | User registration has failed: "image.url" is not allowed to be empty
+[9/3/2024 12:36:28 PM] error:	[POST] [/api/v1/users] 	Code (400) | User registration has failed: "image.url" is not allowed to be empty
+[9/3/2024 12:43:04 PM] error:	[POST] [/api/v1/users] 	Code (400) | User registration has failed: "image.url" is not allowed to be empty
+[9/3/2024 12:53:41 PM] error:	[POST] [/api/v1/users] 	Code (400) | User registration has failed: "image.url" is not allowed to be empty
+[9/3/2024 12:54:43 PM] error:	[POST] [/api/v1/users] 	Code (400) | User registration has failed: "image" is not allowed
+[9/3/2024 12:54:49 PM] error:	[POST] [/api/v1/users] 	Code (400) | User registration has failed: "image" is not allowed
+[9/4/2024 7:01:00 PM] error:	[POST] [/api/v1/users] 	Code (400) | User registration has failed: "isBusiness" is required
+[9/4/2024 7:04:36 PM] success:	[POST] [/api/v1/users] Code (200) | User with the email: someone@gmail.com has been created successfully
+[9/4/2024 7:05:10 PM] success:	 Code (200) | User with the email: someone@gmail.com authenication success
+[9/4/2024 7:05:10 PM] success:	[GET] [/api/v1/users/66d88514f17c27541637809b] Code 200 | User information was retrieved successfully
+[9/4/2024 7:05:29 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/4/2024 7:05:30 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/4/2024 7:05:34 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/4/2024 7:05:56 PM] success:	 Code (200) | User with the email: someone@gmail.com authenication success
+[9/4/2024 7:05:56 PM] success:	[GET] [/api/v1/users/66d88514f17c27541637809b] Code 200 | User information was retrieved successfully
+[9/10/2024 3:54:42 AM] success:	[POST] [/api/v1/products] Code (200) | Product has been created successfully
+[9/10/2024 3:25:42 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/10/2024 3:25:43 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/10/2024 3:25:44 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/10/2024 3:26:07 PM] success:	 Code (200) | User with the email: someone@gmail.com authenication success
+[9/10/2024 3:26:07 PM] success:	[GET] [/api/v1/users/66d88514f17c27541637809b] Code 200 | User information was retrieved successfully
+[9/10/2024 3:28:19 PM] success:	 Code (200) | User with the email: tomerbu@gmail.com authenication success
+[9/10/2024 3:28:19 PM] success:	[GET] [/api/v1/users/66d0404597d1ea4b44362941] Code 200 | User information was retrieved successfully
+[9/10/2024 3:29:08 PM] success:	 Code (200) | User with the email: tomerbu@gmail.com authenication success
+[9/10/2024 3:29:08 PM] success:	[GET] [/api/v1/users/66d0404597d1ea4b44362941] Code 200 | User information was retrieved successfully
+[9/10/2024 3:30:04 PM] success:	 Code (200) | User with the email: tomerbu@gmail.com authenication success
+[9/10/2024 3:30:04 PM] success:	[GET] [/api/v1/users/66d0404597d1ea4b44362941] Code 200 | User information was retrieved successfully
+[9/10/2024 3:30:43 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:30:43 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:19 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:19 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:21 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:21 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:33 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:33 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:36 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:36 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:39 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:39 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:42 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:31:42 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:35:01 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:01 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:01 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:01 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:37 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:37 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:37 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:37 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:49 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:49 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:49 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:35:49 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:12 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:12 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:12 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:12 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:26 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:26 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:45 PM] success:	[GET] [/api/v1/products?q=IPhone&color=Black&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:36:47 PM] success:	[GET] [/api/v1/products?q=IPhone&condition=New&color=Black&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:37:10 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/10/2024 3:37:13 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/10/2024 3:37:15 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/10/2024 3:48:39 PM] error:	[POST] [/api/v1/users/login] 	Code (400) | User authenication has failed: wrong email or password
+[9/10/2024 3:48:43 PM] success:	 Code (200) | User with the email: someone@gmail.com authenication success
+[9/10/2024 3:48:43 PM] success:	[GET] [/api/v1/users/66d88514f17c27541637809b] Code 200 | User information was retrieved successfully
+[9/10/2024 3:50:15 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:50:15 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:50:15 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:50:15 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:52:29 PM] success:	 Code (200) | User with the email: tomerbu@gmail.com authenication success
+[9/10/2024 3:52:29 PM] success:	[GET] [/api/v1/users/66d0404597d1ea4b44362941] Code 200 | User information was retrieved successfully
+[9/10/2024 3:52:31 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:52:31 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 3:52:41 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:52:41 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:52:41 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:52:41 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:53:56 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:53:56 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:53:56 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:53:56 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:58:22 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:58:22 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:58:22 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 3:58:22 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:34 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:34 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:40 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:40 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:52 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:52 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:54 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:54 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:56 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:56 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:58 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:00:58 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:01:01 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:01:01 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:01:16 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:01:16 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:01:44 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:01:44 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:01:50 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:01:50 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:01:50 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:01:50 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:02:39 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:02:39 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:02:39 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:02:39 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:03:42 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:03:42 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:08:16 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:08:16 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:08:18 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:08:18 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:08:19 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:08:19 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:08:45 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:08:45 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:08:51 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:08:51 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 4:19:36 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:19:36 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:19:36 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:19:36 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:37:35 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:37:35 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:37:35 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 4:37:35 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:04:08 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:04:10 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:04:10 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:04:23 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:04:26 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:04:26 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:04:32 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:07:03 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:07:03 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:10:31 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:10:31 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:10:36 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:10:36 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:28 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:28 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:34 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:34 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:35 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:35 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:35 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:35 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:41 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:41 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:41 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:41 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:41 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:41 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:42 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:42 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:43 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:43 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:43 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:43 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:44 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:44 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:45 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:45 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:45 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:45 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:45 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:45 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:46 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:46 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:46 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:22:46 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:23 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=8212] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:23 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=8146] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:23 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=5762] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:23 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1258] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:23 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1192] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:23 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1060] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:23 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=0] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:24 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=331] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:24 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1060] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:24 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1258] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:24 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1325] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:24 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1457] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:24 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1656] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:24 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1589] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:24 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1391] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1258] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1192] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1258] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1523] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1788] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2185] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2252] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2450] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2715] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2781] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2980] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:25 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=3179] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=3245] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=3179] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2980] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2649] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2517] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2384] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2185] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2053] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1656] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1325] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1126] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1060] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:26 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=795] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:27 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=728] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:27 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=596] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:27 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=530] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=596] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=662] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=728] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1060] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1325] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=1589] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=2715] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=4768] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=6887] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=9801] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:39 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:39 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:46 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:46 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:46 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:24:46 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:28:39 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:28:39 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:33:50 PM] error:	[PUT] [/api/v1/products/66d0512727a8ac6c09c962c7] 	Code 400 | Product doesn't exist
+[9/10/2024 5:34:03 PM] error:	[PUT] [/api/v1/products/66d0512727a8ac6c09c962c7] 	Code 400 | Product doesn't exist
+[9/10/2024 5:34:13 PM] error:	[PUT] [/api/v1/products/66d0512727a8ac6c09c962c7] 	Code 400 | Product doesn't exist
+[9/10/2024 5:35:40 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:35:40 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:35:40 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:35:40 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:35:42 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:35:42 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:35:59 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:35:59 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:36:28 PM] error:	[PUT] [/api/v1/products/66d0512727a8ac6c09c962c7] 	Code 400 | Product doesn't exist
+[9/10/2024 5:36:47 PM] error:	[PUT] [/api/v1/products/66d0512727a8ac6c09c962c7] 	Code 400 | Product doesn't exist
+[9/10/2024 5:37:02 PM] success:	[PUT] [/api/v1/products/66d0512727a8ac6c09c962c7] Code 200 | Product information was updated successfully
+[9/10/2024 5:37:11 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:37:11 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:37:11 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:37:11 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:38:58 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:38:58 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:38:59 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:38:59 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:38:59 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:38:59 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:29 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:29 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:29 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:29 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:57 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:57 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:57 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:57 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:58 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:40:58 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:02 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:02 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:02 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:02 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:03 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:03 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:05 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:05 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:06 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:06 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:07 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:07 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:07 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:41:07 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:46:22 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:46:22 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:46:22 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:46:22 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:46:24 PM] success:	[DELETE] [/api/v1/products/66d0512727a8ac6c09c962c9] Code 200 | Product has been deleted successfully
+[9/10/2024 5:46:27 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:46:27 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:46:27 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:46:27 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:48:17 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:48:17 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:48:49 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:48:49 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:48:49 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:48:49 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:12 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:12 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:12 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:12 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:15 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:15 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:15 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:15 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:28 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:28 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:28 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:31 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:31 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:31 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:31 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:48 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:48 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:48 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:49:48 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:50:06 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:50:06 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:50:06 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:50:06 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:33 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:33 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:33 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:33 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:35 PM] success:	[DELETE] [/api/v1/products/66d0512727a8ac6c09c962c7] Code 200 | Product has been deleted successfully
+[9/10/2024 5:51:37 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:37 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:37 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:37 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:38 PM] success:	[DELETE] [/api/v1/products/66d0512727a8ac6c09c962cd] Code 200 | Product has been deleted successfully
+[9/10/2024 5:51:40 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:40 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:40 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:40 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:45 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:45 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:45 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:45 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:46 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962cc] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:46 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962cc] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:46 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:46 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:46 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:51:46 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:49 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:49 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:49 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:49 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:53 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962cc] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:53 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962cc] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:55 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:55 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:55 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:55 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:58 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:58 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:59 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:59 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:59 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:52:59 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:53:00 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:53:00 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:53:01 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:53:01 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:53:01 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:53:01 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:53:57 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:53:57 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:00 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:00 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:02 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:02 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:02 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:02 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:06 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:06 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:06 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:06 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:08 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:08 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:08 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:08 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:13 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:13 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:29 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:29 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:30 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:30 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:50 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:50 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:54 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962cc] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:54 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962cc] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:55 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:55 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:55 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:54:55 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:56:16 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:56:16 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:56:37 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:56:37 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:56:58 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:56:58 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:24 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:24 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:34 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:34 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:40 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:57:40 PM] success:	[GET] [/api/v1/products?id=66d0512727a8ac6c09c962c9,66d0512727a8ac6c09c962c7] Code 200 | Product information was retrieved successfully
+[9/10/2024 5:57:41 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:41 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:45 PM] success:	[GET] [/api/v1/users/66d0404597d1ea4b44362941] Code 200 | User information was retrieved successfully
+[9/10/2024 5:57:45 PM] success:	[GET] [/api/v1/users/66d0404597d1ea4b44362941] Code 200 | User information was retrieved successfully
+[9/10/2024 5:57:46 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:46 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:48 PM] success:	[DELETE] [/api/v1/users/66d88514f17c27541637809b] Code 200 | User has been deleted successfully
+[9/10/2024 5:57:50 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:57:50 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:58:42 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:58:42 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:58:44 PM] success:	[GET] [/api/v1/users/66d0404597d1ea4b44362941] Code 200 | User information was retrieved successfully
+[9/10/2024 5:58:44 PM] success:	[GET] [/api/v1/users/66d0404597d1ea4b44362941] Code 200 | User information was retrieved successfully
+[9/10/2024 5:59:05 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 5:59:05 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 6:00:25 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 6:00:25 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 6:15:50 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 6:15:50 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 6:15:55 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 6:15:55 PM] success:	[GET] [/api/v1/users] Code 200 | Admin has recieved a list of all users
+[9/10/2024 6:16:50 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:16:50 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:16:50 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:16:50 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:17:09 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:17:09 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:17:11 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:17:11 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:17:11 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:17:11 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:18:47 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:18:47 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:18:47 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:18:47 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:18:52 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
+[9/10/2024 6:18:52 PM] success:	[GET] [/api/v1/products?q=IPhone&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
