@@ -120,3 +120,5 @@
 [9/10/2024 10:34:58 PM] success:	[GET] [/api/v1/products] Code 200 | Product information was retrieved successfully
 [9/10/2024 10:34:58 PM] success:	[GET] [/api/v1/products?q=imvu&min_price=0&max_price=10000] Code 200 | Product information was retrieved successfully
 [9/10/2024 10:35:01 PM] success:	[DELETE] [/api/v1/products/66e09f5de312fa0216688387] Code 200 | Product has been deleted successfully
+[9/10/2024 10:35:46 PM] success:	[GET] [/api/v1/products?limit=3] Code 200 | Product information was retrieved successfully
+[9/10/2024 10:35:46 PM] success:	[GET] [/api/v1/products?limit=3] Code 200 | Product information was retrieved successfully
