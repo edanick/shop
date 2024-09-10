@@ -31,7 +31,7 @@ export default function Header({ isDarkTheme, onThemeToggleChange }: HeaderProps
         isMenuOpen = Boolean(anchorEl),
         isMobileMenuOpen = Boolean(mobileMoreAnchorEl),
 
-        allowedPaths = ['/', '/favorites', '/products'],
+        allowedPaths = ['/', '/products'],
 
         allowedToRender = allowedPaths.includes(location.pathname),
 

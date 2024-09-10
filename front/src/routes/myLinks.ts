@@ -8,7 +8,6 @@ export const
         { to: Routes.Home, children: 'Home' },
         { to: Routes.About, children: 'About' }
     ], loggedInLinks = [
-        { to: Routes.Favorites, children: 'Favorites' },
         { to: Routes.Logout, children: 'Logout' }
     ], loggedOutLinks = [
         { to: Routes.Register, children: 'Register' },

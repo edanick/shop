@@ -57,6 +57,7 @@ export const
         {
             _id: '66e05fd753445e8768024ede',
             title: "IPhone 15",
+            image: '66e05fd753445e8768024ede.webp',
             description: '',
             currency: "USD",
             price: 1000,
@@ -68,6 +69,7 @@ export const
         {
             _id: '66e05fd753445e8768024edf',
             title: "PS Vita",
+            image: '66e05fd753445e8768024edf.webp',
             description: '',
             currency: "USD",
             price: 450,
@@ -79,6 +81,7 @@ export const
         {
             _id: '66e05fd753445e8768024ee0',
             title: "IPhone Charger",
+            image: '66e05fd753445e8768024ee0.webp',
             description: '',
             currency: "USD",
             price: 100,
@@ -90,6 +93,7 @@ export const
         {
             _id: '66e05fd753445e8768024ee1',
             title: "Nintendo DS",
+            image: '66e05fd753445e8768024ee1.webp',
             description: '',
             currency: "USD",
             price: 200,
@@ -101,6 +105,7 @@ export const
         {
             _id: '66e05fd753445e8768024ee2',
             title: "Nintnedo Gameboy",
+            image: '66e05fd753445e8768024ee2.webp',
             description: '',
             currency: "USD",
             price: 100,
@@ -112,6 +117,7 @@ export const
         {
             _id: '66e05fd753445e8768024ee3',
             title: "IPhone 14",
+            image: '66e05fd753445e8768024ee3.webp',
             description: '',
             currency: "USD",
             price: 800,
@@ -123,6 +129,7 @@ export const
         {
             _id: '66e05fd753445e8768024ee4',
             title: "IPhone 15",
+            image: '66e05fd753445e8768024ee4.webp',
             description: '',
             currency: "USD",
             price: 1000,
@@ -134,6 +141,7 @@ export const
         {
             _id: "66e05fd753445e8768024ee5",
             title: "PS Vita",
+            image: "66e05fd753445e8768024ee5.webp",
             description: '',
             currency: "USD",
             price: 450,
@@ -145,6 +153,7 @@ export const
         {
             _id: "66e05fd753445e8768024ee6",
             title: "IPhone Charger",
+            image: "66e05fd753445e8768024ee6.webp",
             description: '',
             currency: "USD",
             price: 100,
@@ -156,6 +165,7 @@ export const
         {
             _id: "66e05fd753445e8768024ee7",
             title: "Nintendo DS",
+            image: "66e05fd753445e8768024ee7.webp",
             description: '',
             currency: "USD",
             price: 200,
@@ -167,6 +177,7 @@ export const
         {
             _id: "66e05fd753445e8768024ee8",
             title: "Nintnedo Gameboy",
+            image: "66e05fd753445e8768024ee8.webp",
             description: '',
             currency: "USD",
             price: 100,
@@ -178,6 +189,7 @@ export const
         {
             _id: "66e05fd753445e8768024ee9",
             title: "IPhone 14",
+            image: "66e05fd753445e8768024ee9.webp",
             description: '',
             currency: "USD",
             price: 800,

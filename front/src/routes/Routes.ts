@@ -7,7 +7,6 @@ enum Routes {
     Product = '/product',
     CreateProduct = '/createproduct',
     EditProduct = '/editproduct',
-    Favorites = '/favorites',
     MyCards = '/mycards',
     Products = '/products',
     Cart = '/cart',

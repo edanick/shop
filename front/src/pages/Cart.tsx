@@ -33,7 +33,7 @@ export default function Cart() {
             <Container>
                 <Grid container spacing={2}>
 
-                    {products.map((p) => <ProductCard _id={p._id} title={p.title} currencySymbol={currencies["USD"]} price={p.price} onRemoveFromCartButtonClick={onRemoveFromCartButtonClick} shippingPrice={p.shippingPrice} />)}
+                    {products.map((p) => <ProductCard _id={p._id} title={p.title} currencySymbol={currencies["USD"]} price={p.price} onRemoveFromCartButtonClick={onRemoveFromCartButtonClick} image={`http://localhost:8080/products/${p.image}`} shippingPrice={p.shippingPrice} />)}
 
 
                 </Grid>

@@ -35,7 +35,9 @@ import {
 
   Inventory as InventoryIcon,
   Palette as PaletteIcon,
-  PriceChange as PriceChangeIcon
+  PriceChange as PriceChangeIcon,
+  ViewList as ViewListIcon,
+  ViewModule as ViewModuleIcon
 } from '@mui/icons-material';
 import ProductCard from '../components/ProductCard';
 import useQueryParams from '../hooks/useQueryParams';
@@ -61,6 +63,7 @@ export default function Products(props: Props) {
     [color, setColor] = useState<string>("Any"),
     [condition, setCondition] = useState<string>("Any"),
     [products, setProducts] = useState<any[]>([]),
+    [view, setView] = useState<string>('grid'),
     params = useQueryParams();
 
   //#endregion
@@ -206,7 +209,9 @@ export default function Products(props: Props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Responsive drawer
+            View: 
+            <IconButton onClick={() => { setView('grid') }} ><ViewModuleIcon /></IconButton>
+            <IconButton onClick={() => { setView('list') }} ><ViewListIcon /></IconButton>
           </Typography>
         </Toolbar>
       </AppBar>
@@ -232,13 +237,20 @@ export default function Products(props: Props) {
         <Container>
           <Grid container spacing={2} >
 
-            {products.map((p) =>
+            {view == 'grid' && products.map((p) =>
               <Grid item key={p._id} xs={12} sm={6} md={4} lg={3}>
-                <ProductCard _id={p._id} title={p.title} currencySymbol={currencies["USD"]} price={p.price} image={`http://localhost:8080/products/${p._id}.webp`}
-                  shippingPrice={p.shippingPrice} onAddToCartButtonClick={onAddToCartButtonClick} onRemoveFromCartButtonClick={removeFromCart}
+                <ProductCard _id={p._id} title={p.title} currencySymbol={currencies["USD"]} price={p.price} image={`http://localhost:8080/products/${p.image}`}
+                  shippingPrice={p.shipping} onAddToCartButtonClick={onAddToCartButtonClick} onRemoveFromCartButtonClick={removeFromCart}
                   onDeleteButtonClick={onDeleteButtonClick} />
               </Grid>)}
 
+
+            {view == 'list' && products.map((p) =>
+              <Grid item key={p._id} xs={12} sm={12} >
+                <ProductCard _id={p._id} title={p.title} currencySymbol={currencies["USD"]} price={p.price} image={`http://localhost:8080/products/${p.image}`}
+                  shippingPrice={p.shipping} onAddToCartButtonClick={onAddToCartButtonClick} onRemoveFromCartButtonClick={removeFromCart}
+                  onDeleteButtonClick={onDeleteButtonClick} />
+              </Grid>)}
 
           </Grid>
         </Container>

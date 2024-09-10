@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, ChangeEvent } from "react";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -7,6 +7,10 @@ import { Alert, Button, Container, Divider, FormControl, Grid, InputLabel, MenuI
 import Routes from '../routes/Routes';
 import { Product } from '../@types';
 import validateProduct from "../validation/productValidation";
+
+import { CloudUpload as CloudUploadIcon } from '@mui/icons-material';
+import { VisuallyHiddenInput } from '../components/VisuallyHiddenInput';
+
 
 const initialState = {
     title: '',
@@ -20,6 +24,12 @@ const initialState = {
 }
 
 export default function CreateProduct() {
+
+    const [files, setFiles] = useState<FileList | null>(null),
+
+        onFilesChange = (e: ChangeEvent<HTMLInputElement>) => setFiles(e.target.files);
+
+
     const [formData, setFormData] = useState<Product>(initialState),
 
         { title, description, currency, price, shipping, condition, color, stock } = formData,
@@ -42,8 +52,16 @@ export default function CreateProduct() {
 
             if (errors) return;
 
-            alert(formData);
-            await axios.post("/products", formData);
+
+            const res: any = await axios.post("/products", formData);
+
+
+            if (files) {
+                const file = files[0],
+                    formData = new FormData();
+                formData.append('file', file);
+                axios.post(`products/image/${res.data._id}`, formData);
+            }
 
             toast("Your product was created 👌", {
                 position: "top-right",
@@ -131,6 +149,12 @@ export default function CreateProduct() {
                 {errorsState?.color &&
 
                     <Alert severity="warning">{errorsState.color}</Alert>}
+
+
+                <Button component="label" role={undefined} variant="contained" tabIndex={-1} startIcon={<CloudUploadIcon />}>
+                    Browse Image
+                    <VisuallyHiddenInput type="file" onChange={onFilesChange} multiple />
+                </Button>
 
             </Grid>
             <Grid container spacing={2}>

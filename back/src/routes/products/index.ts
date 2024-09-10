@@ -32,11 +32,45 @@ productsRouter.route('/').
             logger.success("Code 200 | Product information was retrieved successfully", req);
             res.json(product);
         } else {
-            
+
             logger.error(`Code (400) | Product doesn't exist`, req);
             res.status(400).json({ success: false, message: "Product doesn't exist" });
         }
+    }).
+    post(async (req: any, res) => {
+
+        const validation = productSchema.validate(req.body);
+
+        if (validation.error) {
+
+            let errMsg = validation.error.details[0].message;
+
+            logger.error(`Code (400) | Product creation has failed: ${errMsg}`, req);
+            res.status(400).json({ success: false, message: errMsg });
+        } else {
+            let product = new Product({ ...{ _id: new mongoose.Types.ObjectId().toString() }, ...req.body });
+
+            try {
+
+                product = await product.save();
+
+                logger.success(`Code (200) | Product has been created successfully`, req);
+                res.json(product);
+
+            } catch (err) {
+
+                let errMsg = err.errorResponse.errmsg;
+
+                logger.error(`Code (400) | Product creation has failed: ${errMsg}`, req);
+                res.status(400).json({
+                    success: false,
+                    message: errMsg
+                });
+            }
+
+        }
+
     });
-  
+
 
 export default productsRouter;

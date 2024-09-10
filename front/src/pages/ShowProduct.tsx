@@ -15,29 +15,15 @@ export default function ShowProduct() {
             <Paper elevation={3} style={{ padding: "20px", marginTop: "20px" }}>
                 <Grid container spacing={3}>
                     <Grid item xs={12} md={4}>
-                        <img src={product.image ? product.image.url : "no pic"} alt="Company Logo" style={{ width: "100%", height: "auto" }} />
+                        <img src={`http://localhost:8080/products/${product.image}`} alt="Company Logo" style={{ width: "100%", height: "auto" }} />
                     </Grid>
 
                     <Grid item xs={12} md={8}>
                         <Typography variant="h4" gutterBottom>{product.title}</Typography>
-                        <Typography variant="h6" gutterBottom>{product.subtitle}</Typography>
+                        <Typography variant="h6" gutterBottom>{product.price} $</Typography>
+                        <Typography variant="h6" gutterBottom>{product.shipping} $ shipping</Typography>
                         <Typography variant="body1" paragraph>{product.description}</Typography>
-                        <Typography variant="body1">
-                            <strong>Phone:</strong> {product.phone}
-                        </Typography>
-                        <Typography variant="body1">
-                            <strong>Email:</strong> {product.email}
-                        </Typography>
-                        <Typography variant="body1">
-                            <strong>Web:</strong> {product.web}
-                        </Typography>
-                        <Typography variant="body1">
-                            <strong>Address:</strong>
-                            {`${(() => {
-                                let { country, city, street, houseNumber } = product.address;
-                                return ` ${country}, ${city}, ${street}, ${houseNumber}`;
-                            })()}`}
-                        </Typography>
+                     
                     </Grid>
                 </Grid>
             </Paper>

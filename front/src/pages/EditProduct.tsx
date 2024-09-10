@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, ChangeEvent } from 'react';
 
 import { toast } from 'react-toastify';
 import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { Alert, Button, Container, Divider, FormControl, Grid, InputLabel, MenuItem, Select, TextField, Typography, SelectChangeEvent } from '@mui/material'
-
+import { CloudUpload as CloudUploadIcon } from '@mui/icons-material';
+import { VisuallyHiddenInput } from '../components/VisuallyHiddenInput';
 
 import Routes from '../routes/Routes';
 import { Product } from '../@types';
@@ -33,6 +34,10 @@ export default function EditProduct() {
         { title, description, currency, price, shipping, condition, color, stock } = formData,
         [errorsState, setErrorsState] = useState<any>(null);
 
+
+    const [files, setFiles] = useState<FileList | null>(null),
+
+        onFilesChange = (e: ChangeEvent<HTMLInputElement>) => setFiles(e.target.files);
 
     useEffect(() => {
 
@@ -73,8 +78,15 @@ export default function EditProduct() {
             console.log(errors);
             if (errors) return;
 
-
             await axios.put(`/products/${_id}`, formData);
+            
+            if (files) {
+                const file = files[0],
+                    formData = new FormData();
+                formData.append('file', file);
+                axios.post(`products/image/${_id}`, formData);
+            }
+
 
             toast("Your product is updated sucessfully 👌", {
                 position: "top-right",
@@ -160,6 +172,14 @@ export default function EditProduct() {
                 {errorsState?.color &&
 
                     <Alert severity="warning">{errorsState.color}</Alert>}
+
+                <br />
+
+                <Button component="label" role={undefined} variant="contained" tabIndex={-1} startIcon={<CloudUploadIcon />}>
+                    Browse Image
+                    <VisuallyHiddenInput type="file" onChange={onFilesChange} multiple />
+                </Button>
+
 
             </Grid>
             <Grid container spacing={2}>

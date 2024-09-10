@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import { Product } from "../../db/models";
+import fs from 'fs';
 
 import { productSchema, productUpdateSchema } from "../../validations/schemas";
 import logger from "../../logger";
@@ -42,40 +43,6 @@ productRouter.route('/:_id').
 
         }
     }).
-    post(async (req: any, res) => {
-
-        const validation = productSchema.validate(req.body);
-
-        if (validation.error) {
-
-            let errMsg = validation.error.details[0].message;
-
-            logger.error(`Code (400) | Product creation has failed: ${errMsg}`, req);
-            res.status(400).json({ success: false, message: errMsg });
-        } else {
-            let product = new Product({ ...{ _id: new mongoose.Types.ObjectId().toString() }, ...req.body });
-
-            try {
-
-                product = await product.save();
-
-                logger.success(`Code (200) | Product has been created successfully`, req);
-                res.json(product);
-
-            } catch (err) {
-
-                let errMsg = err.errorResponse.errmsg;
-
-                logger.error(`Code (400) | Product creation has failed: ${errMsg}`, req);
-                res.status(400).json({
-                    success: false,
-                    message: errMsg
-                });
-            }
-
-        }
-
-    }).
     delete(async (req: any, res) => {
         let { _id } = req.params;
 
@@ -84,6 +51,11 @@ productRouter.route('/:_id').
             let product = await Product.findByIdAndDelete(_id);
 
             if (product) {
+
+                let filePath = `public/products/${product.image}`;
+
+                if (fs.existsSync(filePath)) { fs.unlinkSync(filePath); }
+
                 logger.success("Code 200 | Product has been deleted successfully", req);
                 res.json(product);
             } else {
@@ -98,5 +70,6 @@ productRouter.route('/:_id').
         } catch (err) { }
 
     });
+
 
 export default productRouter;
