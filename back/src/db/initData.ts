@@ -132,7 +132,7 @@ export const
             stock: 9
         },
         {
-            id: 8,
+            _id: "66e05fd753445e8768024ee5",
             title: "PS Vita",
             description: '',
             currency: "USD",
@@ -143,7 +143,7 @@ export const
             stock: 3
         },
         {
-            id: 9,
+            _id: "66e05fd753445e8768024ee6",
             title: "IPhone Charger",
             description: '',
             currency: "USD",
@@ -154,7 +154,7 @@ export const
             stock: 4
         },
         {
-            id: 10,
+            _id: "66e05fd753445e8768024ee7",
             title: "Nintendo DS",
             description: '',
             currency: "USD",
@@ -165,7 +165,7 @@ export const
             stock: 2
         },
         {
-            id: 11,
+            _id: "66e05fd753445e8768024ee8",
             title: "Nintnedo Gameboy",
             description: '',
             currency: "USD",
@@ -176,7 +176,7 @@ export const
             stock: 3
         },
         {
-            id: 12,
+            _id: "66e05fd753445e8768024ee9",
             title: "IPhone 14",
             description: '',
             currency: "USD",

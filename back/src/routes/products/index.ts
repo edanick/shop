@@ -10,7 +10,7 @@ export const productsRouter = express.Router();
 
 productsRouter.route('/').
     get(async (req: any, res) => {
-        const { id, color, min_price, max_price, condition, q } = req.query;
+        const { id, color, min_price, max_price, condition, q, limit } = req.query;
         let filter: any = {};
         if (q) filter.title = new RegExp(q, "ig");
         if (id) filter._id = { $in: id.split(',') }
@@ -20,7 +20,13 @@ productsRouter.route('/').
         if (color) filter.color = color;
         if (condition) filter.condition = condition;
 
-        let product = await Product.find(filter)
+        let product = null;
+
+        if (limit) {
+            product = await Product.find(filter).limit(limit);
+        } else {
+            product = await Product.find(filter);
+        }
 
         if (product) {
             logger.success("Code 200 | Product information was retrieved successfully", req);

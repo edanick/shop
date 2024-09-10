@@ -38,6 +38,7 @@ import {
   PriceChange as PriceChangeIcon
 } from '@mui/icons-material';
 import ProductCard from '../components/ProductCard';
+import useQueryParams from '../hooks/useQueryParams';
 
 type Props = {
   /**
@@ -59,7 +60,8 @@ export default function Products(props: Props) {
     [priceRange, setPriceRange] = useState<number[]>([0, 10000]),
     [color, setColor] = useState<string>("Any"),
     [condition, setCondition] = useState<string>("Any"),
-    [products, setProducts] = useState<any[]>([]);
+    [products, setProducts] = useState<any[]>([]),
+    params = useQueryParams();
 
   //#endregion
 
@@ -81,11 +83,11 @@ export default function Products(props: Props) {
     if (color != "Any") filterString += `&color=${color}`;
 
 
-    axios.get(`/products?q=IPhone${filterString}&min_price=${priceRange[0]}&max_price=${priceRange[1]}`).then(({ data }) => {
+    axios.get(`/products?q=${params.q}${filterString}&min_price=${priceRange[0]}&max_price=${priceRange[1]}`).then(({ data }) => {
       setProducts(data);
       console.log(data);
     }).catch((err) => { console.log("Error", err); });
-  }, [condition, color, priceRange]);
+  }, [condition, color, priceRange, params]);
 
   //#region drawer
 
@@ -228,11 +230,14 @@ export default function Products(props: Props) {
         <Toolbar />
 
         <Container>
-          <Grid container spacing={2}>
+          <Grid container spacing={2} >
 
-            {products.map((p) => <ProductCard  _id={p._id} title={p.title} currencySymbol={currencies["USD"]} price={p.price} image={`http://localhost:8080/products/${p._id}.webp`}
-              shippingPrice={p.shippingPrice} onAddToCartButtonClick={onAddToCartButtonClick} onRemoveFromCartButtonClick={removeFromCart}
-              onDeleteButtonClick={onDeleteButtonClick} />)}
+            {products.map((p) =>
+              <Grid item key={p._id} xs={12} sm={6} md={4} lg={3}>
+                <ProductCard _id={p._id} title={p.title} currencySymbol={currencies["USD"]} price={p.price} image={`http://localhost:8080/products/${p._id}.webp`}
+                  shippingPrice={p.shippingPrice} onAddToCartButtonClick={onAddToCartButtonClick} onRemoveFromCartButtonClick={removeFromCart}
+                  onDeleteButtonClick={onDeleteButtonClick} />
+              </Grid>)}
 
 
           </Grid>
